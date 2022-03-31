@@ -16,7 +16,10 @@ public class BaseClass1 {
 		{
 			WebDriverManager.chromedriver().setup();    // Here we are using WebDriverManager to set chromedriver
 
-			
+			//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
 			//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browsers\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();     //upcasting
 			driver.get("https://www.flipkart.com/");
