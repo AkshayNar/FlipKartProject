@@ -30,6 +30,5 @@ public class BaseClass1 {
 			driver.manage().window().maximize();
 			return driver;
 		}	
-	
 	}
 }
