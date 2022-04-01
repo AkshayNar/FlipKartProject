@@ -31,7 +31,7 @@ public class BaseClass1 {
 			driver.manage().window().maximize();
 			return driver;
 		}	
-<<<<<<< HEAD
+
 
 //		else
 //		{
@@ -43,7 +43,6 @@ public class BaseClass1 {
 //
 //		}
 		
-=======
->>>>>>> 007dccaddc09e17b599154d219e70ac40037d93b
+
 	}
 }
